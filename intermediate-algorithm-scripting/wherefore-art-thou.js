@@ -37,7 +37,7 @@ function whatIsInAName(collection, source) {
 	
 			if (obj[key] !== source[key]) { 
 				// check for falsies -- if the first one doesn't match, continue
-				// otherwise, it's kick to true and stop
+				// otherwise, it's kicked to true and stops the loop of keys
 				return false; 
 			}
 		}
