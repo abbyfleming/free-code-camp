@@ -41,7 +41,6 @@ function myReplace(str, before, after) {
 		phrase[pos] = after;
 	}
 
-console.log('phrase', phrase.join(' ')); 
 return phrase.join(' ');
 }
 
